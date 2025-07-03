@@ -1,6 +1,6 @@
 # API Playground
 
-This is a Next.js application that provides a fun and interactive demonstration of various APIs.
+This is a Next.js application that provides a fun and interactive demonstration of various APIs, and features a stunning dark theme.
 
 ## Prerequisites
 

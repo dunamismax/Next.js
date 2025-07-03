@@ -1,6 +1,6 @@
 # Dunamismax - Personal Blog & Portfolio
 
-This is a Next.js application that serves as a personal blog and portfolio. It uses a MySQL database for content storage and Tailwind CSS for styling.
+This is a Next.js application that serves as a personal blog and portfolio. It uses a MySQL database for content storage and Tailwind CSS for styling, and features a stunning dark theme.
 
 ## Prerequisites
 

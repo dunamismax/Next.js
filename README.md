@@ -58,6 +58,10 @@ Next.js/
 *   **Dunamismax:** A personal blog and portfolio website built with Next.js, MySQL, and Tailwind CSS.
 *   **API Playground:** A fun and interactive demonstration of various APIs, built with Next.js and Tailwind CSS.
 
+### Features
+
+*   **Unified Dark Theme:** Both applications feature a stunning, unified dark theme for a consistent and visually appealing user experience.
+
 ---
 
 ## Tech Stack
