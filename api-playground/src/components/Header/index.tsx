@@ -3,20 +3,20 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-gray-800">
+    <header className="bg-secondary shadow-lg">
+      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+        <Link href="/" className="text-3xl font-bold text-text-primary hover:text-blue-400 transition-colors duration-300">
           API Playground
         </Link>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-8">
             <li>
-              <Link href="/random-data" className="text-gray-600 hover:text-gray-800">
+              <Link href="/random-data" className="text-text-secondary hover:text-text-primary transition-colors duration-300">
                 Random Data
               </Link>
             </li>
             <li>
-              <Link href="/text-analysis" className="text-gray-600 hover:text-gray-800">
+              <Link href="/text-analysis" className="text-text-secondary hover:text-text-primary transition-colors duration-300">
                 Text Analysis
               </Link>
             </li>

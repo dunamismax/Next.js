@@ -1,3 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a202c;
+  --color-secondary: #2d3748;
+  --color-accent: #4a5568;
+  --color-text-primary: #edf2f7;
+  --color-text-secondary: #a0aec0;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-text-primary;
+  }
+}

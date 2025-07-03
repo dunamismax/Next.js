@@ -2,16 +2,13 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className='text-center'>
-      <h1 className='text-4xl font-bold text-gray-800'>Welcome to Dunamismax</h1>
-      <p className='mt-4 text-lg text-gray-600'>
+    <div className="flex flex-col items-center justify-center min-h-screen text-center px-4">
+      <h1 className="text-6xl font-extrabold text-text-primary">Welcome to Dunamismax</h1>
+      <p className="mt-6 max-w-2xl text-xl text-text-secondary">
         I'm a software engineer who loves building beautiful and functional websites.
       </p>
-      <div className='mt-8'>
-        <Link
-          href='/portfolio'
-          className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full'
-        >
+      <div className="mt-10">
+        <Link href="/portfolio" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-transform transform hover:scale-105">
           View My Work
         </Link>
       </div>

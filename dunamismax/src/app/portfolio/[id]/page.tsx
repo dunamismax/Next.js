@@ -14,10 +14,10 @@ export default async function Project({ params }) {
   const project = await getProject(params.id);
 
   return (
-    <div className="bg-white py-12">
-      <div className="container mx-auto px-4">
+    <div className="py-12">
+      <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-5xl font-extrabold text-gray-900">{project.title}</h1>
+          <h1 className="text-5xl font-extrabold text-text-primary">{project.title}</h1>
           <div className="mt-8">
             <Image
               src={project.image_url}
@@ -26,7 +26,7 @@ export default async function Project({ params }) {
               height={800}
               className="rounded-2xl shadow-lg"
             />
-            <p className="mt-8 text-xl text-gray-600">{project.description}</p>
+            <p className="mt-8 text-xl text-text-secondary">{project.description}</p>
             <div className="mt-8">
               <Link href={project.project_url} target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors duration-300">
                 View Project
