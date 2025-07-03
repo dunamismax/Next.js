@@ -24,20 +24,22 @@ This monorepo serves as a centralized hub for various Next.js applications. Each
 
 ## Quick Start
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/dunamismax/Next.js.git
-    cd Next.js
-    ```
+1. **Clone the repository:**
 
-2.  **Navigate to a project:**
-    ```bash
-    cd dunamismax
-    # or
-    cd api-playground
-    ```
+   ```bash
+   git clone https://github.com/dunamismax/Next.js.git
+   cd Next.js
+   ```
 
-3.  **Follow the instructions in the project's `README.md` file to get started.**
+2. **Navigate to a project:**
+
+   ```bash
+   cd dunamismax
+   # or
+   cd api-playground
+   ```
+
+3. **Follow the instructions in the project's `README.md` file to get started.**
 
 ---
 
@@ -55,30 +57,33 @@ Next.js/
 
 ### Applications
 
-*   **Dunamismax:** A personal blog and portfolio website built with Next.js, MySQL, and Tailwind CSS.
-*   **API Playground:** A fun and interactive demonstration of various APIs, built with Next.js and Tailwind CSS.
+- **Dunamismax:** A personal blog and portfolio website built with Next.js, MySQL, and Tailwind CSS.
+- **API Playground:** A fun and interactive demonstration of various APIs, built with Next.js and Tailwind CSS.
 
 ### Features
 
-*   **Unified Dark Theme:** Both applications feature a stunning, unified dark theme for a consistent and visually appealing user experience.
+- **Unified Dark Theme:** Both applications feature a stunning, unified dark theme for a consistent and visually appealing user experience.
 
 ---
 
 ## Tech Stack
 
 ### Core Technologies
-*   **Next.js:** A React framework for building full-stack web applications. ([Docs](https://nextjs.org/docs))
-*   **MySQL:** An open-source relational database for persistent storage. ([Docs](https://dev.mysql.com/doc/))
-*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development. ([Docs](https://tailwindcss.com/docs))
+
+- **Next.js:** A React framework for building full-stack web applications. ([Docs](https://nextjs.org/docs))
+- **MySQL:** An open-source relational database for persistent storage. ([Docs](https://dev.mysql.com/doc/))
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development. ([Docs](https://tailwindcss.com/docs))
 
 ### Environment
-*   **Development:** MacOS
-*   **Production:** [Ubuntu Server](https://ubuntu.com/server/docs) with [Caddy](https://caddyserver.com/docs/) as a reverse proxy.
+
+- **Development:** MacOS
+- **Production:** [Ubuntu Server](https://ubuntu.com/server/docs) with [Caddy](https://caddyserver.com/docs/) as a reverse proxy.
 
 ### Tooling
-*   **Linting:** [ESLint](https://eslint.org/docs/latest/)
-*   **Formatting:** [Prettier](https://prettier.io/docs/en/)
-*   **Testing:** [Jest](https://jestjs.io/docs/getting-started)
+
+- **Linting:** [ESLint](https://eslint.org/docs/latest/)
+- **Formatting:** [Prettier](https://prettier.io/docs/en/)
+- **Testing:** [Jest](https://jestjs.io/docs/getting-started)
 
 ---
 
@@ -86,9 +91,9 @@ Next.js/
 
 ### Prerequisites
 
-*   Node.js (v18 or later)
-*   npm or yarn
-*   MySQL (for the `dunamismax` project)
+- Node.js (v18 or later)
+- npm or yarn
+- MySQL (for the `dunamismax` project)
 
 ### Setup
 
