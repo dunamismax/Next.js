@@ -7,24 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "test": "jest"
   },
   "dependencies": {
-    "@payloadcms/db-mongodb": "^3.45.0",
-    "@payloadcms/richtext-slate": "^3.45.0",
-    "graphql": "^16.11.0",
+    "mysql2": "^3.14.1",
     "next": "15.3.4",
-    "payload": "^3.45.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@storybook/addon-docs": "^9.0.15",
-    "@storybook/addon-onboarding": "^9.0.15",
-    "@storybook/nextjs": "^9.0.15",
     "@swc/jest": "^0.2.38",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.6.3",
@@ -34,7 +28,6 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "eslint-plugin-storybook": "^9.0.15",
     "jest": "^30.0.4",
     "jest-environment-jsdom": "^30.0.4",
     "prettier": "3.6.2",

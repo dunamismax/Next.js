@@ -55,11 +55,3 @@ To run the test suite with Jest:
 ```bash
 npm run test
 ```
-
-### Running Storybook
-
-To visualize and test UI components in isolation:
-```bash
-npm run storybook
-```
-Storybook will be available at `http://localhost:6006`.

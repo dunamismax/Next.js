@@ -12,8 +12,7 @@
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Framework-Next.js-black.svg" alt="Framework: Next.js"></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/Language-TypeScript-3178C6.svg" alt="Language: TypeScript"></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC.svg" alt="Styling: Tailwind CSS"></a>
-  <a href="https://payloadcms.com/"><img src="https://img.shields.io/badge/CMS-Payload-F472B6.svg" alt="CMS: Payload"></a>
-  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/Database-PostgreSQL-336791.svg" alt="Database: PostgreSQL"></a>
+  <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/Database-MySQL-4479A1.svg" alt="Database: MySQL"></a>
   <a href="https://github.com/dunamismax/Next.js/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
@@ -56,8 +55,26 @@ Next.js/
 
 ### Applications
 
-*   **Dunamismax:** A personal blog and portfolio website built with Next.js, Payload CMS, and Tailwind CSS.
+*   **Dunamismax:** A personal blog and portfolio website built with Next.js, MySQL, and Tailwind CSS.
 *   **API Playground:** A fun and interactive demonstration of various APIs, built with Next.js and Tailwind CSS.
+
+---
+
+## Tech Stack
+
+### Core Technologies
+*   **Next.js:** A React framework for building full-stack web applications. ([Docs](https://nextjs.org/docs))
+*   **MySQL:** An open-source relational database for persistent storage. ([Docs](https://dev.mysql.com/doc/))
+*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development. ([Docs](https://tailwindcss.com/docs))
+
+### Environment
+*   **Development:** MacOS
+*   **Production:** [Ubuntu Server](https://ubuntu.com/server/docs) with [Caddy](https://caddyserver.com/docs/) as a reverse proxy.
+
+### Tooling
+*   **Linting:** [ESLint](https://eslint.org/docs/latest/)
+*   **Formatting:** [Prettier](https://prettier.io/docs/en/)
+*   **Testing:** [Jest](https://jestjs.io/docs/getting-started)
 
 ---
 
@@ -67,7 +84,7 @@ Next.js/
 
 *   Node.js (v18 or later)
 *   npm or yarn
-*   MongoDB (for the `dunamismax` project)
+*   MySQL (for the `dunamismax` project)
 
 ### Setup
 

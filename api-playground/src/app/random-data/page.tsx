@@ -20,20 +20,30 @@ export default function RandomData() {
   };
 
   return (
-    <div>
-      <h1 className="text-4xl font-bold text-gray-800">Random Data Generator</h1>
-      <div className="mt-8">
-        <div className="flex items-center space-x-4">
-          <button onClick={fetchRandomNumber} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-            Generate Random Number
-          </button>
-          {randomNumber && <p className="text-lg text-gray-800">{randomNumber}</p>}
-        </div>
-        <div className="mt-4 flex items-center space-x-4">
-          <button onClick={fetchRandomString} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-            Generate Random String
-          </button>
-          {randomString && <p className="text-lg text-gray-800">{randomString}</p>}
+    <div className="bg-gray-900 text-white min-h-screen p-8">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-5xl font-extrabold">Random Data Generator</h1>
+        <div className="mt-12 space-y-8">
+          <div className="bg-gray-800 p-8 rounded-2xl">
+            <h2 className="text-2xl font-bold">Random Number</h2>
+            <p className="mt-2 text-gray-400">Generate a random number between 0 and 100.</p>
+            <div className="mt-6 flex items-center space-x-4">
+              <button onClick={fetchRandomNumber} className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300">
+                Generate
+              </button>
+              {randomNumber !== null && <p className="text-2xl font-mono bg-gray-700 p-3 rounded-lg">{randomNumber}</p>}
+            </div>
+          </div>
+          <div className="bg-gray-800 p-8 rounded-2xl">
+            <h2 className="text-2xl font-bold">Random String</h2>
+            <p className="mt-2 text-gray-400">Generate a random string of characters.</p>
+            <div className="mt-6 flex items-center space-x-4">
+              <button onClick={fetchRandomString} className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300">
+                Generate
+              </button>
+              {randomString && <p className="text-2xl font-mono bg-gray-700 p-3 rounded-lg">{randomString}</p>}
+            </div>
+          </div>
         </div>
       </div>
     </div>
