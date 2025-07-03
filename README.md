@@ -5,7 +5,7 @@
 <h1 align="center">Next.js Monorepo</h1>
 
 <p align="center">
-  A centralized repository for a diverse collection of Next.js applications and shared libraries, designed for efficient and scalable project management.
+  A centralized repository for a diverse collection of Next.js applications, designed for efficient and scalable project management.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 ## Introduction
 
-This monorepo serves as a centralized hub for various Next.js applications. Each project is designed to be independent and self-contained, promoting code reusability, consistent practices, and simplified dependency management.
+This monorepo serves as a centralized hub for various Next.js applications. Each project is designed to be independent and self-contained.
 
 ## Quick Start
 
