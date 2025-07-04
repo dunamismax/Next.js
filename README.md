@@ -55,33 +55,47 @@ Next.js/
 
 ### Applications
 
-- **Dunamismax:** A personal blog and portfolio website built with Next.js, MySQL, and Tailwind CSS.
-- **API Playground:** A fun and interactive demonstration of various APIs, built with Next.js and Tailwind CSS.
-
-### Features
-
-- **Unified Dark Theme:** Both applications feature a stunning, unified dark theme for a consistent and visually appealing user experience.
+- **[Dunamismax](https://github.com/dunamismax/Next.js/tree/main/dunamismax):** A personal blog and portfolio website built with Next.js, MySQL, and Tailwind CSS.
+- **[API Playground](https://github.com/dunamismax/Next.js/tree/main/api-playground):** A fun and interactive demonstration of various APIs, built with Next.js and Tailwind CSS.
 
 ---
 
-## Tech Stack
+<details>
+<summary>Tech Stack</summary>
 
-### Core Technologies
+### **Development Environment**
 
-- **Next.js:** A React framework for building full-stack web applications. ([Docs](https://nextjs.org/docs))
-- **MySQL:** An open-source relational database for persistent storage. ([Docs](https://dev.mysql.com/doc/))
-- **Tailwind CSS:** A utility-first CSS framework for rapid UI development. ([Docs](https://tailwindcss.com/docs))
+- **macOS:** Used for all development and testing.
 
-### Environment
+### **Production Environment**
 
-- **Development:** MacOS
-- **Production:** [Ubuntu Server](https://ubuntu.com/server/docs) with [Caddy](https://caddyserver.com/docs/) as a reverse proxy.
+- **Ubuntu Server:** A stable and widely-used Linux distribution serving as the foundation for the self-hosted application and database.
+  - **Official Documentation:** `https://ubuntu.com/server/docs`
+- **Caddy:** A modern, open-source web server acting as a reverse proxy to manage traffic and provide automatic HTTPS for the Next.js application.
+  - **Official Documentation:** `https://caddyserver.com/docs/`
 
-### Tooling
+### **Application & Database**
 
-- **Linting:** [ESLint](https://eslint.org/docs/latest/)
-- **Formatting:** [Prettier](https://prettier.io/docs/en/)
-- **Testing:** [Jest](https://jestjs.io/docs/getting-started)
+- **Next.js:** A React framework for building full-stack web applications. It powers the entire application, handling the user-facing frontend, backend API routes, and server-side logic.
+  - **Official Documentation:** `https://nextjs.org/docs`
+- **MySQL:** An open-source relational database management system used for reliable and high-performance persistent data storage.
+  - **Official Documentation:** `https://dev.mysql.com/doc/`
+
+### **Styling**
+
+- **Tailwind CSS:** A utility-first CSS framework that enables rapid UI development and ensures design consistency directly in the markup.
+  - **Official Documentation:** `https://tailwindcss.com/docs`
+
+### **Development & Testing**
+
+- **ESLint:** A configurable linter tool for identifying and fixing problems in code, helping to maintain code quality and enforce standards.
+  - **Official Documentation:** `https://eslint.org/docs/latest/`
+- **Prettier:** An opinionated code formatter that ensures a consistent code style across the entire codebase, improving readability.
+  - **Official Documentation:** `https://prettier.io/docs/en/`
+- **Jest:** A JavaScript testing framework used for unit and integration testing of non-UI logic such as utility functions, API endpoints, and business logic.
+  - **Official Documentation:** `https://jestjs.io/docs/getting-started`
+
+</details>
 
 ---
 
