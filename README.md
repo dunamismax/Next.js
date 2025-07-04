@@ -2,8 +2,6 @@
   <img src="https://github.com/dunamismax/Next.js/blob/main/nextjs-logo-new.png" alt="Next.js Monorepo logo" width="250"/>
 </p>
 
-<h1 align="center">Next.js Monorepo</h1>
-
 <p align="center">
   A centralized repository for a diverse collection of Next.js applications, designed for efficient and scalable project management.
 </p>
