@@ -1,3 +1,10 @@
+-- This schema is for the test database.
+-- It's identical to the main schema, but for a separate database.
+
+CREATE DATABASE IF NOT EXISTS dunamismax_test;
+
+USE dunamismax_test;
+
 -- Users table for admin authentication
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,

@@ -2,11 +2,11 @@ import { query } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { slugify, parseInternalLinks } from '@/lib/utils';
 
-// GET all posts
+// GET all garden notes
 export async function GET() {
   try {
     const results = await query({
-      query: 'SELECT id, title, slug, status, published_at, updated_at FROM posts ORDER BY updated_at DESC',
+      query: 'SELECT id, title, slug, created_at, updated_at FROM garden_notes ORDER BY updated_at DESC',
       values: [],
     });
     return NextResponse.json(results, { status: 200 });
@@ -15,34 +15,31 @@ export async function GET() {
   }
 }
 
-// POST a new post
+// POST a new garden note
 export async function POST(request: Request) {
   try {
-    const { title, content, status } = await request.json();
+    const { title, content } = await request.json();
     const slug = slugify(title);
 
-    // Insert the new post
     const result = await query({
-      query: 'INSERT INTO posts (title, slug, content, status) VALUES (?, ?, ?, ?)',
-      values: [title, slug, content, status || 'draft'],
+      query: 'INSERT INTO garden_notes (title, slug, content) VALUES (?, ?, ?)',
+      values: [title, slug, content],
     });
-    const postId = result.insertId;
+    const noteId = result.insertId;
 
-    // Handle internal links
     const linkedSlugs = parseInternalLinks(content);
     if (linkedSlugs.length > 0) {
-      const linkValues = linkedSlugs.map(targetSlug => [postId, 'post', targetSlug]);
+      const linkValues = linkedSlugs.map(targetSlug => [noteId, 'garden_note', targetSlug]);
       await query({
         query: 'INSERT INTO content_links (source_id, source_type, target_slug) VALUES ?',
         values: [linkValues],
       });
     }
 
-    return NextResponse.json({ id: postId, title, slug, content, status }, { status: 201 });
+    return NextResponse.json({ id: noteId, title, slug, content }, { status: 201 });
   } catch (e) {
-    // Check for duplicate slug error
     if (e.code === 'ER_DUP_ENTRY') {
-      return NextResponse.json({ message: 'A post with this title already exists.' }, { status: 409 });
+      return NextResponse.json({ message: 'A garden note with this title already exists.' }, { status: 409 });
     }
     return NextResponse.json({ message: e.message }, { status: 500 });
   }
