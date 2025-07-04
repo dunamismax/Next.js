@@ -63,6 +63,11 @@ Next.js/
 <details>
 <summary>Tech Stack</summary>
 
+### **Core Language**
+
+- **TypeScript:** The primary language used for all applications, ensuring type safety and improved developer experience.
+  - **Official Documentation:** `https://www.typescriptlang.org/docs/`
+
 ### **Development Environment**
 
 - **macOS:** Used for all development and testing.
@@ -80,6 +85,8 @@ Next.js/
   - **Official Documentation:** `https://nextjs.org/docs`
 - **MySQL:** An open-source relational database management system used for reliable and high-performance persistent data storage.
   - **Official Documentation:** `https://dev.mysql.com/doc/`
+- **mysql2:** A high-performance MySQL driver for Node.js.
+  - **Official Repository:** `https://github.com/sidorares/node-mysql2`
 
 ### **Styling**
 
@@ -88,6 +95,8 @@ Next.js/
 
 ### **Development & Testing**
 
+- **Turbopack:** An incremental bundler for JavaScript and TypeScript, used to accelerate local development.
+  - **Official Documentation:** `https://turbo.build/pack/docs`
 - **ESLint:** A configurable linter tool for identifying and fixing problems in code, helping to maintain code quality and enforce standards.
   - **Official Documentation:** `https://eslint.org/docs/latest/`
 - **Prettier:** An opinionated code formatter that ensures a consistent code style across the entire codebase, improving readability.

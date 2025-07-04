@@ -33,16 +33,53 @@ yarn install
 
 ### 3. Set Up the Database
 
-Create a new MySQL database and run the `schema.sql` file to create the necessary tables.
+These steps will guide you through creating a dedicated MySQL user and database for this project.
+
+1.  **Log in to MySQL as a root user:**
+    Open your terminal and connect to the MySQL server. You may be prompted for your root password.
+    ```bash
+    mysql -u root -p
+    ```
+
+2.  **Create a new user and set a password.**
+    From the `mysql>` prompt, run the following command. Replace `your_username` with a username of your choice and `your_secure_password` with a strong password.
+    ```sql
+    CREATE USER 'your_username'@'localhost' IDENTIFIED BY 'your_secure_password';
+    ```
+
+3.  **Create the database.**
+    ```sql
+    CREATE DATABASE dunamismax;
+    ```
+
+4.  **Grant your new user privileges on the database.**
+    This allows the application to perform all necessary operations on the `dunamismax` database.
+    ```sql
+    GRANT ALL PRIVILEGES ON dunamismax.* TO 'your_username'@'localhost';
+    ```
+
+5.  **Apply the changes and exit.**
+    ```sql
+    FLUSH PRIVILEGES;
+    EXIT;
+    ```
+
+6.  **Import the database schema.**
+    From your regular terminal prompt (not the `mysql>` prompt), navigate to the `dunamismax` project directory and run this command. It will prompt for the password you created for `your_username`.
+    ```bash
+    mysql -u your_username -p dunamismax < schema.sql
+    ```
 
 ### 4. Set Up Environment Variables
 
-Create a `.env.local` file in the `dunamismax` root directory and add your MySQL credentials:
+Create a `.env.local` file in the `dunamismax` root directory. This file will store your database credentials securely.
+
+Add the following content to the file, replacing the placeholder values with the credentials you just created:
 
 ```
 DB_HOST=127.0.0.1
-DB_USER=your-mysql-user
-DB_PASSWORD=your-mysql-password
+DB_USER=your_username
+DB_PASSWORD=your_secure_password
 DB_DATABASE=dunamismax
 ```
 
