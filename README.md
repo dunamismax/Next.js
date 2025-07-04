@@ -65,8 +65,7 @@ Next.js/
 
 ### **Core Language**
 
-- **TypeScript:** The primary language used for all applications, ensuring type safety and improved developer experience.
-  - **Official Documentation:** [TypeScript](https://www.typescriptlang.org/docs/)
+- **[TypeScript](https://www.typescriptlang.org/docs/):** The primary language used for all applications, ensuring type safety and improved developer experience.
 
 ### **Development Environment**
 
@@ -74,35 +73,25 @@ Next.js/
 
 ### **Production Environment**
 
-- **Ubuntu Server:** A stable and widely-used Linux distribution serving as the foundation for the self-hosted application and database.
-  - **Official Documentation:** [Ubuntu Server](https://ubuntu.com/server/docs)
-- **Caddy:** A modern, open-source web server acting as a reverse proxy to manage traffic and provide automatic HTTPS for the Next.js application.
-  - **Official Documentation:** [Caddy](https://caddyserver.com/docs/)
+- **[Ubuntu Server](https://ubuntu.com/server/docs):** A stable and widely-used Linux distribution serving as the foundation for the self-hosted application and database.
+- **[Caddy](https://caddyserver.com/docs/):** A modern, open-source web server acting as a reverse proxy to manage traffic and provide automatic HTTPS for the Next.js application.
 
 ### **Application & Database**
 
-- **Next.js:** A React framework for building full-stack web applications. It powers the entire application, handling the user-facing frontend, backend API routes, and server-side logic.
-  - **Official Documentation:** [Next.js](https://nextjs.org/docs)
-- **MySQL:** An open-source relational database management system used for reliable and high-performance persistent data storage.
-  - **Official Documentation:** [MySQL](https://dev.mysql.com/doc/)
-- **mysql2:** A high-performance MySQL driver for Node.js.
-  - **Official Repository:** [mysql2](https://github.com/sidorares/node-mysql2)
+- **[Next.js](https://nextjs.org/docs):** A React framework for building full-stack web applications. It powers the entire application, handling the user-facing frontend, backend API routes, and server-side logic.
+- **[MySQL](https://dev.mysql.com/doc/):** An open-source relational database management system used for reliable and high-performance persistent data storage.
+- **[mysql2](https://github.com/sidorares/node-mysql2):** A high-performance MySQL driver for Node.js.
 
 ### **Styling**
 
-- **Tailwind CSS:** A utility-first CSS framework that enables rapid UI development and ensures design consistency directly in the markup.
-  - **Official Documentation:** [Tailwind CSS](https://tailwindcss.com/docs)
+- **[Tailwind CSS](https://tailwindcss.com/docs):** A utility-first CSS framework that enables rapid UI development and ensures design consistency directly in the markup.
 
 ### **Development & Testing**
 
-- **Turbopack:** An incremental bundler for JavaScript and TypeScript, used to accelerate local development.
-  - **Official Documentation:** [Turbopack](https://turbo.build/pack/docs)
-- **ESLint:** A configurable linter tool for identifying and fixing problems in code, helping to maintain code quality and enforce standards.
-  - **Official Documentation:** [ESLint](https://eslint.org/docs/latest/)
-- **Prettier:** An opinionated code formatter that ensures a consistent code style across the entire codebase, improving readability.
-  - **Official Documentation:** [Prettier](https://prettier.io/docs/en/)
-- **Jest:** A JavaScript testing framework used for unit and integration testing of non-UI logic such as utility functions, API endpoints, and business logic.
-  - **Official Documentation:** [Jest](https://jestjs.io/docs/getting-started)
+- **[Turbopack](https://turbo.build/pack/docs):** An incremental bundler for JavaScript and TypeScript, used to accelerate local development.
+- **[ESLint](https://eslint.org/docs/latest/):** A configurable linter tool for identifying and fixing problems in code, helping to maintain code quality and enforce standards.
+- **[Prettier](https://prettier.io/docs/en/):** An opinionated code formatter that ensures a consistent code style across the entire codebase, improving readability.
+- **[Jest](https://jestjs.io/docs/getting-started):** A JavaScript testing framework used for unit and integration testing of non-UI logic such as utility functions, API endpoints, and business logic.
 
 </details>
 
