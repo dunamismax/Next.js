@@ -106,13 +106,3 @@ npm run build
 ```bash
 npm run start
 ```
-
-## Testing
-
-### Running Tests
-
-To run the test suite with Jest:
-
-```bash
-npm run test
-```

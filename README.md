@@ -91,7 +91,7 @@ Next.js/
 - **[Turbopack](https://turbo.build/pack/docs):** An incremental bundler for JavaScript and TypeScript, used to accelerate local development.
 - **[ESLint](https://eslint.org/docs/latest/):** A configurable linter tool for identifying and fixing problems in code, helping to maintain code quality and enforce standards.
 - **[Prettier](https://prettier.io/docs/en/):** An opinionated code formatter that ensures a consistent code style across the entire codebase, improving readability.
-- **[Jest](https://jestjs.io/docs/getting-started):** A JavaScript testing framework used for unit and integration testing of non-UI logic such as utility functions, API endpoints, and business logic.
+
 
 </details>
 

@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "jest"
+    "lint": "next lint"
   },
   "dependencies": {
     "isomorphic-dompurify": "^2.25.0",
@@ -22,10 +21,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@storybook/addon-docs": "^9.0.15",
-    "@swc/jest": "^0.2.38",
     "@tailwindcss/postcss": "^4.1.11",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
     "@types/marked": "^5.0.2",
     "@types/node": "^24.0.10",
     "@types/qrcode": "^1.5.5",
@@ -35,8 +31,6 @@
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "jest": "^30.0.4",
-    "jest-environment-jsdom": "^30.0.4",
     "postcss-nesting": "^13.0.2",
     "prettier": "3.6.2",
     "storybook": "^9.0.15",
