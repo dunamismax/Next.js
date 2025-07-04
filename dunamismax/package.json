@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "cookie": "^0.6.0",
+    "cookie": "^1.0.2",
     "jose": "^5.6.3",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.1",
@@ -19,7 +19,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
-    "react-syntax-highlighter": "^15.5.0",
+    "react-syntax-highlighter": "^15.6.1",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.0"
   },
