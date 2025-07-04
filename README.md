@@ -66,7 +66,7 @@ Next.js/
 ### **Core Language**
 
 - **TypeScript:** The primary language used for all applications, ensuring type safety and improved developer experience.
-  - **Official Documentation:** `https://www.typescriptlang.org/docs/`
+  - **Official Documentation:** [TypeScript](https://www.typescriptlang.org/docs/)
 
 ### **Development Environment**
 
@@ -75,34 +75,34 @@ Next.js/
 ### **Production Environment**
 
 - **Ubuntu Server:** A stable and widely-used Linux distribution serving as the foundation for the self-hosted application and database.
-  - **Official Documentation:** `https://ubuntu.com/server/docs`
+  - **Official Documentation:** [Ubuntu Server](https://ubuntu.com/server/docs)
 - **Caddy:** A modern, open-source web server acting as a reverse proxy to manage traffic and provide automatic HTTPS for the Next.js application.
-  - **Official Documentation:** `https://caddyserver.com/docs/`
+  - **Official Documentation:** [Caddy](https://caddyserver.com/docs/)
 
 ### **Application & Database**
 
 - **Next.js:** A React framework for building full-stack web applications. It powers the entire application, handling the user-facing frontend, backend API routes, and server-side logic.
-  - **Official Documentation:** `https://nextjs.org/docs`
+  - **Official Documentation:** [Next.js](https://nextjs.org/docs)
 - **MySQL:** An open-source relational database management system used for reliable and high-performance persistent data storage.
-  - **Official Documentation:** `https://dev.mysql.com/doc/`
+  - **Official Documentation:** [MySQL](https://dev.mysql.com/doc/)
 - **mysql2:** A high-performance MySQL driver for Node.js.
-  - **Official Repository:** `https://github.com/sidorares/node-mysql2`
+  - **Official Repository:** [mysql2](https://github.com/sidorares/node-mysql2)
 
 ### **Styling**
 
 - **Tailwind CSS:** A utility-first CSS framework that enables rapid UI development and ensures design consistency directly in the markup.
-  - **Official Documentation:** `https://tailwindcss.com/docs`
+  - **Official Documentation:** [Tailwind CSS](https://tailwindcss.com/docs)
 
 ### **Development & Testing**
 
 - **Turbopack:** An incremental bundler for JavaScript and TypeScript, used to accelerate local development.
-  - **Official Documentation:** `https://turbo.build/pack/docs`
+  - **Official Documentation:** [Turbopack](https://turbo.build/pack/docs)
 - **ESLint:** A configurable linter tool for identifying and fixing problems in code, helping to maintain code quality and enforce standards.
-  - **Official Documentation:** `https://eslint.org/docs/latest/`
+  - **Official Documentation:** [ESLint](https://eslint.org/docs/latest/)
 - **Prettier:** An opinionated code formatter that ensures a consistent code style across the entire codebase, improving readability.
-  - **Official Documentation:** `https://prettier.io/docs/en/`
+  - **Official Documentation:** [Prettier](https://prettier.io/docs/en/)
 - **Jest:** A JavaScript testing framework used for unit and integration testing of non-UI logic such as utility functions, API endpoints, and business logic.
-  - **Official Documentation:** `https://jestjs.io/docs/getting-started`
+  - **Official Documentation:** [Jest](https://jestjs.io/docs/getting-started)
 
 </details>
 
